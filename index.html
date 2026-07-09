@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muñeco de Año Viejo — Kit ritual de fin de año</title>
+
+<!-- FIX: se agregó meta description y Open Graph. El original no tenía
+     ninguna, así que cualquier link compartido en WhatsApp/Instagram
+     (el canal principal de este negocio) se veía sin texto ni imagen
+     de vista previa. -->
+<meta name="description" content="Kit artesanal para tu ritual de año viejo: muñeco hecho a mano, insumos para quemarlo y tres cartas para escribir deseo, dejar ir y agradecer. $15.000 COP, unidades limitadas por lote.">
+<meta property="og:title" content="Muñeco de Año Viejo — Kit ritual de fin de año">
+<meta property="og:description" content="El muñeco, lo que se quema, y las palabras que le pones antes de dejarlo ir. Todo en un kit.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="./assets/1 (1).jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Karla:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- CSS separado en su propio archivo (antes iba embebido en <style>) -->
+<link rel="stylesheet" href="./css/style.css">
+
+<!--Icon-->
+<link rel="icon" href="./assets/gift-box.png" type="image">
+<a href="https://www.flaticon.com/free-icons/gift-box" title="gift-box icons">Gift-box icons created by Md Tanvirul Haque - Flaticon</a>
+</head>
+<body>
+
+<!-- ============ NAVEGACIÓN ============ -->
+<nav>
+  <div class="logo">año viejo <span>·</span> ritual</div>
+  <div class="nav-right">
+    <div class="nav-social">
+      <!--Social Media -->
+      <a href="https://instagram.com/ritualfinde" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <!-- TODO CRÍTICO: mismo caso para TikTok. -->
+      <a href="https://tiktok.com/@ritualfinde" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 3c.4 2.4 1.9 4 4.4 4.2v3c-1.5 0-2.9-.4-4.1-1.2v6.4c0 3.4-2.7 6.1-6.1 6.1S4.7 18.8 4.7 15.4c0-3.3 2.6-6 5.9-6.1v3.1c-1.6.1-2.9 1.4-2.9 3s1.4 3 3 3 3-1.3 3-3V3h3.9z"/></svg>
+      </a>
+    </div>
+    <a class="nav-cta" href="#reservar">Separar kit</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-scrim"></div>
+  <div class="hero-ember-glow"></div>
+  <div class="hero-content">
+    <span class="eyebrow">Kit muñeco de año viejo · Edición diciembre</span>
+    <h1>Lo que <em>sueltas</em><br>esta noche, no vuelve<br>a entrar al año.</h1>
+    <p class="hero-sub">Todo lo que necesitas para tu ritual de fin de año en casa: el muñeco, lo que se quema, y las palabras que le pones antes de dejarlo ir.</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="#reservar">Separar el mío por $15.000</a>
+      <span class="hero-price">Unidades <b>limitadas</b> por lote</span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ RITUAL: LAS TRES CARTAS ============ -->
+<section class="ritual" id="ritual">
+  <div class="section-head">
+    <span class="eyebrow">El ritual</span>
+    <h2>Tres cartas. Tres decisiones para el año que se va.</h2>
+  </div>
+  <div class="cards-wrap">
+    <!-- Cada carta es un botón accesible: role="button", tabindex y
+         aria-pressed (este último lo actualiza js/script.js al voltear) -->
+    <div class="flip-card" tabindex="0" role="button" aria-pressed="false" aria-label="Carta: deseo. Toca para leer.">
+      <div class="flip-inner">
+        <div class="flip-face flip-front">
+          <span class="num">Carta 01</span>
+          <div>
+            <h3>Deseo</h3>
+            <span class="hint">Toca la carta →</span>
+          </div>
+        </div>
+        <div class="flip-face flip-back">
+          "Lo que quiero que este año nuevo me traiga, lo escribo antes de que empiece."
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" tabindex="0" role="button" aria-pressed="false" aria-label="Carta: dejar ir. Toca para leer.">
+      <div class="flip-inner">
+        <div class="flip-face flip-front">
+          <span class="num">Carta 02</span>
+          <div>
+            <h3>Dejar ir</h3>
+            <span class="hint">Toca la carta →</span>
+          </div>
+        </div>
+        <div class="flip-face flip-back">
+          "Esto se queda en el año viejo. Lo escribo, lo guardo en el muñeco, y lo suelto con él."
+        </div>
+      </div>
+    </div>
+    <div class="flip-card" tabindex="0" role="button" aria-pressed="false" aria-label="Carta: agradecer. Toca para leer.">
+      <div class="flip-inner">
+        <div class="flip-face flip-front">
+          <span class="num">Carta 03</span>
+          <div>
+            <h3>Agradecer</h3>
+            <span class="hint">Toca la carta →</span>
+          </div>
+        </div>
+        <div class="flip-face flip-back">
+          "Antes de despedir el año, nombro lo que sí funcionó. Eso también hay que decirlo."
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="cards-note">Las tres cartas vienen físicas dentro del kit — esto es solo un adelanto.</p>
+</section>
+
+<!-- ============ QUÉ TRAE EL KIT ============ -->
+<section class="includes" id="incluye">
+  <div class="includes-img">
+    <img src="./assets/1 (4).jpg" alt="Dos muñecos de año viejo con sus insumos: lentejas, aserrín y fósforos">
+  </div>
+  <div>
+    <div class="section-head" style="margin-bottom:1.8rem;">
+      <span class="eyebrow">Qué trae el kit</span>
+      <h2>Todo listo, nada por conseguir</h2>
+    </div>
+    <ul class="includes-list">
+      <li>
+        <span class="mark">—</span>
+        <div>
+          <b>Mini muñeco + stickers</b>
+          <span class="desc">Hecho a mano, con su sombrero y su ropa. Único de verdad, no en serie.</span>
+        </div>
+      </li>
+      <li>
+        <span class="mark">—</span>
+        <div>
+          <b>Lentejas + aserrín + fósforos</b>
+          <span class="desc">Lo que se necesita para el ritual de quema.</span>
+        </div>
+      </li>
+      <li>
+        <span class="mark">—</span>
+        <div>
+          <b>Cartas para escribir</b>
+          <span class="desc">Deseo, dejar ir, agradecer. Se escriben antes de medianoche.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ GALERÍA ============ -->
+<section class="gallery" id="galeria">
+  <div class="section-head">
+    <span class="eyebrow">El kit en casa</span>
+    <h2>Así llega a tu mesa</h2>
+  </div>
+  <div class="gallery-grid">
+    <img src="./assets/1 (6).jpg" alt="Muñeco de año viejo dentro de la caja, listo para armar">
+    <img src="./assets/1 (3).jpg" alt="Detalle del muñeco con su ropa a rayas">
+    <img src="./assets/1 (7).jpg" alt="Caja abierta con el muñeco y sus insumos">
+  </div>
+</section>
+
+<!-- ============ SÍGUENOS ============ -->
+<section class="siguenos" id="siguenos">
+  <div class="section-head">
+    <span class="eyebrow">El ritual, en video</span>
+    <h2>Míralo antes de armarlo</h2>
+  </div>
+  <div class="social-row">
+    <a class="social-card" href="https://instagram.com/TU_USUARIO" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"/></svg>
+      <span class="label"><b>Instagram</b><span>@TU_USUARIO</span></span>
+    </a>
+    <a class="social-card" href="https://tiktok.com/@TU_USUARIO" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 3c.4 2.4 1.9 4 4.4 4.2v3c-1.5 0-2.9-.4-4.1-1.2v6.4c0 3.4-2.7 6.1-6.1 6.1S4.7 18.8 4.7 15.4c0-3.3 2.6-6 5.9-6.1v3.1c-1.6.1-2.9 1.4-2.9 3s1.4 3 3 3 3-1.3 3-3V3h3.9z"/></svg>
+      <span class="label"><b>TikTok</b><span>@TU_USUARIO</span></span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIOS ============ -->
+<section class="testimonios" id="testimonios">
+  <div class="section-head">
+    <span class="eyebrow">Quienes ya lo hicieron</span>
+    <h2>Diciembre 2025</h2>
+  </div>
+  <div class="testimonial-grid">
+    <div class="testimonial">
+      <p class="quote">"Un bonito ritual para comenzar el año con toda."</p>
+      <span class="who">— Santi, Sabaneta</span>
+    </div>
+    <div class="testimonial">
+      <p class="quote">"Prende muy fácil, es económico y esencial para fin de año."</p>
+      <span class="who">— Pipe, San Javier</span>
+    </div>
+    <div class="testimonial">
+      <p class="quote">"Las cartas me ayudan a dejar lo malo del año."</p>
+      <span class="who">— David, San Antonio de Prado</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL / RESERVA ============ -->
+<section class="final-cta" id="reservar">
+  <div class="final-cta-inner">
+    <span class="eyebrow">Unidades limitadas por lote</span>
+    <h2>Separa tu muñeco antes de que se agote el lote</h2>
+    <p>Se arma a mano, uno por uno. Escríbeme por WhatsApp y te guardo el tuyo.</p>
+    <div class="price-tag">$15.000 <span>por kit completo</span></div>
+    <a class="btn-light" href="https://wa.me/573165028920" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <span>Muñeco de Año Viejo · Kit ritual hecho a mano en Medellín</span>
+  <span>Diciembre 2026</span>
+</footer>
+
+<!-- JS -->
+<script src="./js/script.js"></script>
+
+</body>
+</html>
